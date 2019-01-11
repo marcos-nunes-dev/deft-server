@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url('../fonts/big_noodle_titling-webfont.woff2') format('woff2'),
+         url('../fonts/big_noodle_titling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bn{
+	font-family: 'bignoodletitlingregular';
+}
+
+* {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0px auto;	
+	overflow: hidden;
+  	background: url(../img/test.jpg) no-repeat center center; 
+  	-webkit-background-size: contain;
+  	-moz-background-size: contain;
+  	-o-background-size: contain;
+  	background-size: contain;	
+}
+
+.base-hud{
+	width: 17%;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+}
+
+.base-hud .row{
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.no-padding{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.base-hud .name-job{
+	color: #fff;
+	font-size: 18px;
+}
+
+.base-hud .name-job span{
+	color: #09eb95;
+}
+
+.base-hud .stats .left-side .life{
+	background: rgba(46, 56, 51, 0.8);
+	border: 1px solid rgba(112, 149, 135, 0.8);
+	padding: 2px;
+}
+
+.base-hud .stats .left-side .armour{
+	background: rgba(46, 56, 51, 0.8);
+	border: 1px solid rgba(112, 149, 135, 0.8);
+	padding: 2px;
+	margin-top: 5px;
+}
+
+.base-hud .stats .left-side .progress{
+	height: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.base-hud .stats .progress-bar{
+	margin-left: auto;
+}
+
+.base-hud .stats .left-side .status{
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.base-hud .stats .left-side .life .progress{
+	background: rgba(9, 253, 149, 0.19);
+}
+
+.base-hud .stats .left-side .life .progress-bar{
+	background: rgba(9, 253, 149, 1);
+}
+
+.base-hud .stats .left-side .armour .progress{
+	background: rgba(9, 211, 235, 0.19);
+}
+
+.base-hud .stats .left-side .armour .progress-bar{
+	background: rgba(9, 211, 235, 1);
+}
+
+.base-hud .stats .icon{
+	background: rgba(46, 56, 51, 0.8);
+	border: 1px solid rgba(112, 149, 135, 0.8);
+	padding: 2px;
+	height: 26px;
+    margin-bottom: 5px;
+}
+
+.base-hud .stats .icon img{
+	height: 100%;
+	margin-bottom: 2px;
+}
+
+.base-hud .stats .left-side .money .pocket{
+	padding: 0px 2px 0px 0px !important;
+}
+
+.base-hud .stats .left-side .money .bank{
+	padding: 0px 2px 0px 2px !important;
+}
+
+.base-hud .stats .left-side .money .coins{
+	padding: 0px 0px 0px 2px !important;
+}
+
+.base-hud .stats .left-side .money .inner{
+	background: rgba(46, 56, 51, 0.8);
+	border: 1px solid rgba(112, 149, 135, 0.8);
+	padding: 6px 5px;
+	height: 40px;
+}
+
+.base-hud .stats .left-side .money .inner img{
+	width: 100%;
+}
+
+.base-hud .stats .left-side .money .inner .qtd{
+	color: #fff;
+	font-size: 18px;
+}
+
+.base-hud .stats .left-side .money .inner .qtd span{
+	color: rgba(9, 253, 149, 1);
+}
+
+.base-hud .stats .right-side{
+	padding-left: 5px;
+	padding-right: 0px;
+}
+
+.base-hud .stats .right-side .experience{
+	background: rgba(46, 56, 51, 0.8);
+	border: 1px solid rgba(112, 149, 135, 0.8);
+	padding: 3px 0px;
+	height: 50px;
+}
+
+.base-hud .stats .right-side .experience .corner{
+	position: absolute;
+	width: 13px;
+	right: 2px;
+	top: 2px;
+}
+
+.base-hud .stats .right-side .experience .level{
+	color: #fff;
+	font-size: 26px;
+}
+
+.base-hud .stats .right-side .experience .exp-pts{
+	position: absolute;
+	bottom: 0;
+}
+
+.base-hud .stats .right-side .experience .exp-pts .pt{
+	background: transparent;
+	height: 7px;
+	border: 1px solid #313934;
+}
+
+.base-hud .stats .right-side .experience .exp-pts .fill{
+	background: #638278 !important;
+}
+
+.base-hud .stats .right-side .needs{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	margin-top: 2px;
+	height: auto; 
+}
+
+.base-hud .stats .right-side .needs .hungry, .base-hud .stats .right-side .needs .thirsty{
+	background: rgba(46, 56, 51, 0.8);
+	border: 1px solid rgba(112, 149, 135, 0.8);
+	padding: 2px;	
+}
+
+.base-hud .stats .right-side .needs .hungry .progress{
+	background: rgba(235, 137, 9, 0.19);
+	margin-left: 2px;
+	margin-right: 2px;
+	height: 100%;
+}
+
+.base-hud .stats .right-side .needs .hungry .progress-bar{
+	background: rgba(235, 137, 9, 1);
+}
+
+.base-hud .stats .right-side .needs .thirsty .progress{
+	background: rgba(9, 211, 235, 0.19);
+	margin-left: 2px;
+	margin-right: 2px;
+	height: 100%;
+}
+
+.base-hud .stats .right-side .needs .thirsty .progress-bar{
+	background: rgba(9, 211, 235, 1);
+}
+
+.base-hud .stats .right-side .needs .ico-hungry, .base-hud .stats .right-side .needs .ico-thirsty{
+	background: rgba(46, 56, 51, 0.8);
+	border: 1px solid rgba(112, 149, 135, 0.8);
+	padding: 2px;
+	margin-right: 3px;
+	height: 25px;
+} 
+
+.base-hud .stats .right-side .needs .ico-hungry img, .base-hud .stats .right-side .needs .ico-thirsty img{
+	max-width: 100%;
+	margin-bottom: 2px;
+}
+
+.base-hud .stats .right-side .needs .row{
+	height: 25px;
+}

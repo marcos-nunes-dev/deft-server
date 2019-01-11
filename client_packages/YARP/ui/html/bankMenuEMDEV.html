@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang='pt'>
+    <head>
+        <meta charset='utf-8'>
+        <title>Bank Menu</title>
+        <link rel='stylesheet' href='../css/bankmenu.css'>
+        <link rel='stylesheet' href='../css/scrollbar.css' />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
+    </head>
+
+    <body>   
+        <div class="container-fluid bank-ui">
+            <div class="corner-top"></div>    
+            
+            <div class="row">
+                <div class="header col-lg-12">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <img src="../img/bank/banklogo.png" class="logo" alt="">
+                        </div>
+                        <div class="col-lg-6 user text-right">
+                            <h4 class="bn">BEM-VINDO,</h4>
+                            <h3 class="bn">MARCOS NUNES</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-lg-10 transactions">
+                    <div class="box">
+                        <div class="title">
+                            <h3 class="bn">MENU DE OPERAÇÕES</h3>
+                        </div>
+                        <div class="row actions">
+                            <div class="col-lg-4 bank-action">
+                                <div class="box">
+                                    <div class="actitle">
+                                        <img class="icon ico-sacar" src="../img/bank/ico-sacar.png" alt="">
+                                        <h4 class="bn">SACAR DINHEIRO</h4>
+                                    </div>
+                                    <div class="accontent text-center">
+                                        <p>SALDO EM CONTA</p>
+                                        <h1 class="bn">247.000,00</h1>
+                                        <!-- input -->
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text bn">R$</span>
+                                            </div>
+                                            <input type="text" class="form-control bn" placeholder="Digite o valor"/>
+                                        </div>
+                                        <button class="btn btn-default btn-block bn">SACAR QUANTIA</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 bank-action">
+                                <div class="box hidden">
+                                    <div class="actitle">
+                                        <img class="icon ico-sacar" src="../img/bank/ico-depositar.png" alt="">
+                                        <h4 class="bn">DEPOSITAR DINHEIRO</h4>
+                                    </div>
+                                    <div class="accontent text-center">
+                                        <p>SALDO EM MÃOS</p>
+                                        <h1 class="bn">345,00</h1>
+                                        <!-- input -->
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text bn">R$</span>
+                                            </div>
+                                            <input type="text" class="form-control bn" placeholder="Digite o valor"/>
+                                        </div>
+                                        <button class="btn btn-default btn-block bn">SACAR QUANTIA</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 bank-action">
+                                <div class="box hidden">
+                                    <div class="actitle">
+                                        <img class="icon ico-sacar" src="../img/bank/ico-transferir.png" alt="">
+                                        <h4 class="bn">TRANSFERIR DINHEIRO</h4>
+                                    </div>
+                                    <div class="accontent text-center">
+                                        <p>SALDO EM CONTA</p>
+                                        <h1 class="bn">247.000,00</h1>
+                                        <!-- input -->
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text bn">R$</span>
+                                            </div>
+                                            <input type="text" class="form-control bn" placeholder="Digite o valor"/>
+                                        </div>
+                                        <button class="btn btn-default btn-block bn">SACAR QUANTIA</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 log">
+                    <div class="row">
+                        <div class="dinheiro-sujo col-md-6">
+                            <div class="box text-right">
+                                <h4>Dinheiro<br>Sujo:</h4>
+                                <h2 class="bn">345</h2>
+                            </div>
+                        </div>
+                        <div class="dinheiro-sal col-md-6">
+                            <div class="box text-right">
+                                <h4>Salário<br>Fixo:</h4>
+                                <h2 class="bn">2.5<span>K</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="title-activity col-lg-12">
+                            <div class="box">
+                                <h4 class="bn">REGISTRO DE OPERAÇÕES</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

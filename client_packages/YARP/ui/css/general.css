@@ -1,0 +1,297 @@
+﻿@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url('../fonts/big_noodle_titling-webfont.woff2') format('woff2'),
+         url('../fonts/big_noodle_titling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bn{
+	font-family: 'bignoodletitlingregular';
+}
+
+* {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;	
+	overflow: hidden;
+  	font-family: 'Orbitron', sans-serif;  	
+}
+
+figure img {
+	margin: 0 auto;
+}
+
+figcaption {
+	text-align: center;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.text-white {
+	color: #FFF;
+}
+
+.text-dark-white {
+	color: #EEE;
+}
+
+.height-10 {
+	height: 10vh;
+}
+
+.height-90 {
+	height: 90vh;
+}
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(27, 37, 37, 0.88);
+}
+
+.container {
+	position: relative;
+	height: 14rem;
+	border: 1px solid;
+}
+
+.vertical-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.vehicle-scrollable {
+	height: 75vh;
+	margin-top: 2.5vh;
+	overflow-y: auto;
+}
+
+/* Added by Composure/Psycho */
+
+.login-heading {
+	text-align: center;
+}
+
+.panel-heading img.logo {
+	width: 200px;
+	padding: 3px;
+}
+
+#bank-withdraw-error {
+	height:20px;
+}
+#bank-deposit-error {
+	height:20px;
+}
+#bank-transfer-error {
+	height:20px;
+}
+
+/* LOGIN */
+#canvas{
+	position: fixed;
+	opacity: 0.3 !important;
+}
+
+.corner-top{
+	background: #00ec90;
+    height: 18px;
+    width: 80%;
+    position: absolute;
+    top: -10px;
+    border-radius: 30px !important;
+    display: table;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card-login{
+	background: rgba(32, 47, 45, 0.9);
+	border: 1px solid #486763;
+	position: relative;
+	padding: 10% 0;
+	-webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.3);
+}
+
+.corner-effect{
+	width: 20px;
+	height: 20px;
+	background: url(../img/login/corner.png) no-repeat right top; 
+  	-webkit-background-size: contain;
+  	-moz-background-size: contain;
+  	-o-background-size: contain;
+  	background-size: contain;
+  	position: absolute;
+  	top: 5px;
+  	right: 5px;
+}
+
+.login-heading h1{
+	color: #fff;
+	font-size: 46px;
+	margin-bottom: 30px;
+}
+
+.logo{
+	max-width: 70%;
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 25px;
+}
+
+.input-group{
+	border: 1px solid #3c5855;
+    border-radius: 30px !important;
+}
+
+.form-control {
+    color: #ffffff !important;
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0.7rem .75rem !important;
+}
+
+.input-group-text {
+    background-color: transparent !important;
+    border: none !important;   
+}
+
+.form-control:focus{
+	box-shadow: none !important;
+}
+
+
+.input-group-text{
+	padding-left: 20px !important;
+}
+
+.input-group-text img{
+	max-width: 75%;
+}
+
+.instruction{
+	color: #4b5b59;
+	font-size: 13px;
+	text-align: center;
+}
+
+.instruction a{
+	color: #a5b0ae;
+	text-decoration: underline;
+	transition: all 1.5s;
+}
+
+.instruction a:hover{
+	color: #fff;
+}
+
+/* dust effect */
+li {
+    list-style-type: none;
+}
+
+.slider-box {
+  float: right;
+  margin: 10px 20px;
+  position: relative;
+  z-index: 1000;
+}
+
+#range {
+  margin-top: 5px;
+  color: #eee;
+  font-size: 10pt;
+  margin-left: 10px;
+  position: relative;
+}
+
+#specks {
+  position: absolute;
+  z-index: 999;
+  height: 100vh;
+  width: 100vw;
+}
+
+.speck {
+  opacity: 0;
+  height: 4px;
+  width: 4px;
+  background: url('http://i1272.photobucket.com/albums/y391/matthew_williams10/speck_zpsu9xym9zl.png');
+  background-size: cover;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 99;
+}
+
+.img {
+  position: absolute;
+  height: 100000px;
+  width: 100000px;
+  top: -8500px;
+  left: -8000px;
+  animation-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  animation-name: float;
+  animation-iteration-count: infinite;
+}
+
+#img-1 {
+  opacity: 0.25;
+  background: url('https://image.ibb.co/jcTvpv/dust1.jpg');
+  background-repeat: repeat;
+  animation-duration: 600s;
+}
+
+#img-2 {
+  opacity: 0.2;
+  background: url('https://image.ibb.co/goU1Uv/dust2.jpg');
+  background-repeat: repeat;
+  animation-duration: 450s;
+}
+
+#img-3 {
+  opacity: 0.15;
+  background: url('https://image.ibb.co/cymRwa/dust3.jpg');
+  background-repeat: repeat;
+  animation-duration: 350s;
+}
+/*ANIMATIONS*/
+
+@keyframes twinkle {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.75;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(175px, 100px);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+      transform:translate(8000px, 4000px);
+  }
+}

@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url('../fonts/big_noodle_titling-webfont.woff2') format('woff2'),
+         url('../fonts/big_noodle_titling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bn{
+	font-family: 'bignoodletitlingregular';
+}
+
+body{
+	background: url(../img/testbg.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100wh;
+  height: 100vh;  
+}
+
+.container-fluid{
+	padding-right: 50px !important;
+    padding-left: 40px !important;
+    padding-top: 55px;
+}
+
+.header{
+	padding: 20px;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	background: rgba(0, 0, 0, 0.28);
+}
+
+.corner-top{
+	background: #00ec90;
+    height: 18px;
+    width: 80%;
+    position: absolute;
+    top: -10px;
+    border-radius: 30px !important;
+    display: table;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hidden{
+	opacity: 0.2;
+}
+
+.bank-ui{
+	background: rgba(19, 25, 25, 0.86);
+	width: 100wh;
+  	height: 100vh;
+}
+
+.bank-ui .logo{
+	max-width: 140px;
+}
+
+.bank-ui .user h4{
+	color: #00ec90;
+	margin-bottom: 0px !important;
+}
+
+.bank-ui .user h3{
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+.bank-ui .content .transactions{
+	padding: 20px 20px 20px 0px;
+}
+
+.bank-ui .content .transactions .box{
+	background: rgba(0, 0, 0, 0.28);
+	padding-bottom: 25px;
+}
+
+.bank-ui .content .transactions .title{
+	background: rgba(0, 0, 0, 0.28);
+	padding:  20px;
+	margin-bottom: 20px;
+}
+
+.bank-ui .content .transactions .title h3{
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+.bank-ui .content .transactions .actions{
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+}
+
+.bank-ui .content .transactions .bank-action .box{
+	background: rgba(0, 0, 0, 0.28);
+}
+
+.bank-ui .content .transactions .bank-action .box .actitle{
+	background: rgba(0, 0, 0, 0.28);
+	padding: 10px;
+}
+
+.bank-ui .content .transactions .bank-action .box .actitle .icon{
+	position: absolute;
+	right: 30px;
+	top: 12px;
+	width: 25px;
+}
+
+.bank-ui .content .transactions .bank-action .box .actitle h4{
+	color: #848484;
+	margin-bottom: -0px;
+}
+
+.bank-ui .content .transactions .bank-action .box .accontent{
+	padding: 20px 10px;
+}
+
+.bank-ui .content .transactions .bank-action .box .accontent p{
+	margin-bottom: 0px;
+	color: #505050;
+	font-family: 'Roboto Condensed', sans-serif;
+  	font-weight: light;
+  	letter-spacing: 5px;
+}
+
+.bank-ui .content .transactions .bank-action .box .accontent h1{
+	color: #fff;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+.bank-ui .content .transactions .bank-action .box .accontent .input-group{
+	width: 80%;
+    margin: 0 auto;	
+    border: 1px solid #505050 !important; 
+    border-radius: 50px;
+    margin-bottom: 45px;
+}
+
+.bank-ui .content .transactions .bank-action .box .accontent .input-group .form-control {    
+    line-height: 40px !important;
+    font-size: 23px !important;
+    color: #ffffff !important;
+    background-color: transparent !important;    
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.form-control:focus:focus{
+	box-shadow: none !important;
+}
+
+.bank-ui .content .transactions .bank-action .box .accontent .input-group .input-group-text {    
+    padding: 0px 20px !important;
+     line-height: 40px !important;
+    font-size: 23px !important;
+    color: #00ec90 !important;
+    background-color: transparent !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+    border-right: 1px solid #505050 !important; 
+}
+
+.bank-ui .content .transactions .bank-action .box .accontent .btn-default{
+	max-width: 80%;
+	margin:  0 auto;
+	background: #0a603f;
+	color: #fff;
+	font-size: 23px;
+	line-height: 40px;
+	margin-top: 45px;
+}
+
+.bank-ui .content .log{
+	margin-top: 20px;
+}
+
+.bank-ui .content .log .dinheiro-sujo, .bank-ui .content .log .dinheiro-sal{	
+	padding:  0px 5px;
+}
+
+.bank-ui .content .log .dinheiro-sujo .box, .bank-ui .content .log .dinheiro-sal .box{
+	background: rgba(0, 0, 0, 0.28);
+	padding: 12px;
+}
+
+.bank-ui .content .log .dinheiro-sujo .box h4, .bank-ui .content .log .dinheiro-sal .box h4{
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif !important;
+  	font-weight: 100 !important;
+  	font-size: 18px;
+}
+
+.bank-ui .content .log .dinheiro-sujo .box h2, .bank-ui .content .log .dinheiro-sal .box h2{
+	color: #fff;
+	font-size: 40px;
+}
+
+.bank-ui .content .log .dinheiro-sujo .box h2 span, .bank-ui .content .log .dinheiro-sal .box h2 span{
+	color: #00ec90 !important;
+}
+
+.bank-ui .content .log .title-activity{
+	padding:  0px 5px;
+	margin-top: 20px;
+}
+
+.bank-ui .content .log .title-activity .box{
+	background: rgba(0, 0, 0, 0.56);
+	padding: 12px;
+}
+
+.bank-ui .content .log .title-activity .box h4{
+	color: #fff;
+	margin-bottom: 0px;
+}

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title>Login Panel</title>
+        <link rel='stylesheet' href='../css/general.css'>
+        <link rel='stylesheet' href='../css/scrollbar.css' />
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css'>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+    </head>
+    <body class='background col-lg-12'>
+        <!-- EFFECTS -->
+        <div id="canvas">
+            <ul id="scene" data-friction-x="0.03"
+              data-friction-y="0.05">
+              <li class="layer" id="specks" data-depth="0.1"></li>
+              <li class="layer" id="layer-1" data-depth="0.15">
+                <div class="img" id="img-1"></div>
+              </li>
+              <li class="layer" id="layer-2" data-depth="0.25">
+                <div class="img" id="img-2"></div>
+              </li>
+              <li class="layer" id="layer-3" data-depth="0.45">
+                <div class="img" id="img-3"></div>
+              </li>
+            </ul>
+        </div>
+        <div class="corner-top"></div>
+        
+        <div class="col-lg-3 col-sm-4 center-block vertical-center">
+            <img src="../img/login/logo.png" class="logo" alt="">
+            <form class='card-login'>
+                <div class="corner-effect"></div>
+                <div class='panel-heading login-heading'>
+                  <h1 class="bn">LOGIN</h1>
+                </div>
+                <div class="col-lg-10 col-lg-offset-1 d-block mx-auto">
+                    <div id="b" class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><img src="../img/login/userico.png" alt=""></span>
+                      </div>
+                      <input id="name" type="text" class="form-control" placeholder="Username"/>
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><img src="../img/login/passico.png" alt=""></span>
+                      </div>
+                      <input id="pass" type="password" class="form-control pass-field" placeholder="Senha" required="required" autofocus />
+                    </div>
+
+                    <p class="instruction">Para se registrar você precisa acessar nosso site <a href="#">brazukasrp.com.br</a> e efetuar o seu cadastro.</p>
+                </div>           
+                
+                <div class='col-lg-6 col-lg-offset-3 d-block mx-auto'>
+                    <button id='register' class='btn btn-primary form-control' onclick='loginAccount();'>Login</button>
+                </div>
+            </form>    
+        </div>
+        
+
+    </body>
+    <script src='../js/functions.js'></script>
+    <script src='../js/effects.js'></script>
+</html>

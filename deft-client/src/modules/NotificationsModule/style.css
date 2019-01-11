@@ -1,0 +1,65 @@
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.notification {
+  color: #fff;
+  min-width: 370px;
+  margin-bottom: 10px;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-smooth: always;
+}
+
+.message {
+  padding: 7px 15px 7px 20px;
+  font-size: 1.5em;
+}
+
+.commandsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 20px 7px 15px;
+  font-size: 1.2em;
+}
+
+.commandWrapper {
+  display: flex;
+  flex-direction: row
+}
+
+.f5Key, .f6Key {
+  margin-right: 5px;
+}
+
+.f5Key {
+  color: #0aea98;
+}
+
+.f6Key {
+  color: #e2484f;
+  margin-left: 10px;
+}
+
+.timerBarBackground, .timerBar {
+  width: 100%;
+  height: 5px;
+}
+
+.timerBarBackground {
+  background-color: rgba(10, 234, 152, 0.3);
+}
+
+.timerBar {
+  background-color: #0aea98;
+  width: 0;
+}
