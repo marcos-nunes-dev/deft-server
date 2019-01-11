@@ -1,1 +1,3 @@
-#mLab account user: MarcosRenato266 password: q1w2e3r41515@
+## DISCUTINUED PROJECT - GTA5 SERVER WITH RAGE
+
+# Redux, Node.js, Inferno.js, MongoDB, Redux and other things.
