@@ -20,7 +20,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.11",
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "react-hot-loader": "^4.2.0",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
